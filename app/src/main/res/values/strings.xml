@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">news</string>
+    <string name="sign_up">Sign Up</string>
+    <!--<string name="enter_email">Enter Email</string>-->
+    <!--<string name="enter_password">Enter Password</string>-->
+    <!--<string name="enter_cpassword">Enter Password again</string>-->
+    <!--<string name="enter_name">Enter Name</string>-->
+    <string name="name">Name:</string>
+    <string name="email">Email:</string>
+    <string name="password">Password:</string>
+    <string name="create_account">Create Account</string>
+    <string name="already_login">Already a member? Login</string>
+    <string name="not_member">No account yet? Create one</string>
+    <string name="login">Login</string>
+    <string name="exit">Exit</string>
+    <!--<string name="cpassword">Confirn Password</string>-->
+</resources>
