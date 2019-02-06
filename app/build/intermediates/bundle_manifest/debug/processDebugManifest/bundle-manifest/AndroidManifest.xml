@@ -17,7 +17,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/Theme.AppCompat.Light" >
         <activity android:name="com.example.news.login" />
         <activity android:name="com.example.news.sign_up" />
         <activity android:name="com.example.news.MainActivity" >

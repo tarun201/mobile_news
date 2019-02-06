@@ -26,6 +26,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+//        setTitle("Testing");
+
 //        Button b = (Button)findViewById(R.id.button);
 //        Button b2 = (Button)findViewById(R.id.button2);
 
