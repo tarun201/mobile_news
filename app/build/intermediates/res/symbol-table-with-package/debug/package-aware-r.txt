@@ -1061,8 +1061,6 @@ id blocking
 id bottom
 id btn_login
 id btn_signup
-id button
-id button2
 id buttonPanel
 id center
 id center_horizontal
@@ -1129,6 +1127,8 @@ id link_login
 id link_signup
 id listMode
 id list_item
+id login_or_signup
+id logout
 id masked
 id message
 id middle
@@ -1208,6 +1208,7 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1364,6 +1365,8 @@ string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
 string login
+string login_or_signup
+string logout
 string mtrl_chip_close_icon_content_description
 string name
 string not_member

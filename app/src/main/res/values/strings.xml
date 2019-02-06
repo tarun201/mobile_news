@@ -13,5 +13,7 @@
     <string name="not_member">No account yet? Create one</string>
     <string name="login">Login</string>
     <string name="exit">Exit</string>
+    <string name="logout">Log Out</string>
+    <string name="login_or_signup">Login/Signup</string>
     <!--<string name="cpassword">Confirn Password</string>-->
 </resources>
