@@ -102,8 +102,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.logout:
                 editor.clear();
                 editor.apply();
-                finish();
-                startActivity(getIntent());
+//                finish();
+//                startActivity(getIntent());
+                this.recreate();
                 return true;
                 default:
                     return super.onOptionsItemSelected(item);
