@@ -31,8 +31,17 @@ public class sign_up extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String email = editTextemail.getText().toString();
+                String name = editTextname.getText().toString();
+                String password = editTextpassword.getText().toString();
                 if (email.isEmpty()) {
-                    editTextemail.setError("Enter email");
+                    editTextemail.setError("Email can't be empty");
+                    editTextemail.requestFocus();
+                }else if(name.isEmpty()){
+                    editTextname.setError("Name can't be empty");
+                    editTextname.requestFocus();
+                }else if(password.isEmpty()){
+                    editTextpassword.setError("Password can't be empty");
+                    editTextpassword.requestFocus();
                 } else {
                     AddData();
                 }

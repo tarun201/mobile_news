@@ -5,33 +5,63 @@
     build-mode="COLD"
     density="xxhdpi"
     format="10"
-    ir-eligibility="COMPATIBLE"
+    ir-eligibility="R_CLASS_CHANGE"
     plugin-version="3.3.0"
-    timestamp="1550385711550"
+    timestamp="1550401909245"
     token="1446465104708780112"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="390" />
+        duration="2323" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="37" />
+        duration="178" />
     <task
         name="verifier"
-        duration="5" />
+        duration="118" />
 
+    <artifact
+        location="C:\Users\Samanyu Sen\Desktop\mobile_news\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
     <artifact
         location="C:\Users\Samanyu Sen\Desktop\mobile_news\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
         type="SPLIT" />
+    <artifact
+        location="C:\Users\Samanyu Sen\Desktop\mobile_news\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Samanyu Sen\Desktop\mobile_news\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Samanyu Sen\Desktop\mobile_news\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Samanyu Sen\Desktop\mobile_news\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Samanyu Sen\Desktop\mobile_news\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Samanyu Sen\Desktop\mobile_news\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Samanyu Sen\Desktop\mobile_news\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Samanyu Sen\Desktop\mobile_news\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Samanyu Sen\Desktop\mobile_news\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1550384989023"
-        verifier="FULL_BUILD_REQUESTED" >
+        timestamp="1550396780638"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Samanyu Sen\Desktop\mobile_news\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
@@ -39,16 +69,16 @@
             location="C:\Users\Samanyu Sen\Desktop\mobile_news\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Samanyu Sen\Desktop\mobile_news\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
             location="C:\Users\Samanyu Sen\Desktop\mobile_news\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Samanyu Sen\Desktop\mobile_news\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="C:\Users\Samanyu Sen\Desktop\mobile_news\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Samanyu Sen\Desktop\mobile_news\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Samanyu Sen\Desktop\mobile_news\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Samanyu Sen\Desktop\mobile_news\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
@@ -57,10 +87,10 @@
             location="C:\Users\Samanyu Sen\Desktop\mobile_news\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Samanyu Sen\Desktop\mobile_news\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="C:\Users\Samanyu Sen\Desktop\mobile_news\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Samanyu Sen\Desktop\mobile_news\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="C:\Users\Samanyu Sen\Desktop\mobile_news\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Samanyu Sen\Desktop\mobile_news\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
@@ -71,12 +101,42 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1550385711550"
+        ir-eligibility="R_CLASS_CHANGE"
+        timestamp="1550401909245"
         verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Samanyu Sen\Desktop\mobile_news\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
         <artifact
             location="C:\Users\Samanyu Sen\Desktop\mobile_news\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
+        <artifact
+            location="C:\Users\Samanyu Sen\Desktop\mobile_news\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Samanyu Sen\Desktop\mobile_news\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Samanyu Sen\Desktop\mobile_news\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Samanyu Sen\Desktop\mobile_news\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Samanyu Sen\Desktop\mobile_news\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Samanyu Sen\Desktop\mobile_news\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Samanyu Sen\Desktop\mobile_news\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Samanyu Sen\Desktop\mobile_news\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Samanyu Sen\Desktop\mobile_news\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

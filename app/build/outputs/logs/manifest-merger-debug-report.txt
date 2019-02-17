@@ -1,16 +1,19 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:2:1-23:12
+ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:2:1-25:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\e84a6f6c13caac8325ba5630f9a148c2\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\89c93e68fc4915c0359d43fa445f8bf2\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\7c9d949cd364f496f74a4605c0b11963\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\c7f948c586e4f8f30e9ab270a21506e6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\9fa666dec34fcd2b15998dbf5021d6c9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\ac582b53757c1779e4034c07d22f1f3f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\824e81448b3dec8531f22a4f91129b85\AndroidManifest.xml:2:1-11:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\f0efaada8889f765c4ee32dac96d51b2\AndroidManifest.xml:2:1-14:12
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\7e81b9926b4df565c3db5006e52b4707\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\7c2880e612b235f7f866c0b67150188c\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\9fa666dec34fcd2b15998dbf5021d6c9\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\68349caf0ca2392fd9aaa5f974934c65\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\74d66a2f947c0b2c6639cc1cc61e10de\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\a54230ef800f7d47128e720a6d8ab4b3\AndroidManifest.xml:17:1-22:12
@@ -27,7 +30,7 @@ MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Samanyu Se
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\7f7b589beab8641534c6df2049c07dc0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\1e35effa94edbbf4bd1ba7c8e47f6b99\AndroidManifest.xml:17:1-25:12
 MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\596c78f89b3c047e3e73c41a7cf02880\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\ac582b53757c1779e4034c07d22f1f3f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\ce4597384fec8794e87317cd163657e8\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\44bc90285832ea8ff7d6fc9ad15309c1\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\dc28805c2886fb1b9b07cd18531f400e\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\2b617757e0d4953234bd3425853990ff\AndroidManifest.xml:17:1-22:12
@@ -37,29 +40,37 @@ MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Samanyu Sen\.grad
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\82339c24ff305848943162e5a85011d1\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\f9fba23c416016c90edb3fe69333713a\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\6677e1826a22254d6b2b910da3e866fb\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:3:5-31
 		INJECTED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:2:1-23:12
+		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:2:1-25:12
 		INJECTED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:2:1-23:12
+		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:2:1-25:12
 		INJECTED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:4:5-66
+	android:name
+		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:5:5-21:19
+ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:6:5-23:19
 MERGED from [com.android.support:design:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\e84a6f6c13caac8325ba5630f9a148c2\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\e84a6f6c13caac8325ba5630f9a148c2\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\7c9d949cd364f496f74a4605c0b11963\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\7c9d949cd364f496f74a4605c0b11963\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\824e81448b3dec8531f22a4f91129b85\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\824e81448b3dec8531f22a4f91129b85\AndroidManifest.xml:9:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\f0efaada8889f765c4ee32dac96d51b2\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\f0efaada8889f765c4ee32dac96d51b2\AndroidManifest.xml:7:5-12:19
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\7f7b589beab8641534c6df2049c07dc0\AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\7f7b589beab8641534c6df2049c07dc0\AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\1e35effa94edbbf4bd1ba7c8e47f6b99\AndroidManifest.xml:22:5-23:19
@@ -67,39 +78,43 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Samanyu Se
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\7f7b589beab8641534c6df2049c07dc0\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:11:9-35
 	android:label
-		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:9:9-41
 	android:roundIcon
-		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:10:9-54
 	android:icon
-		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:8:9-43
 	android:allowBackup
-		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:11:9-53
+		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:12:9-53
+activity#com.example.news.MainActivity2
+ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:13:9-50
+	android:name
+		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:13:19-48
 activity#com.example.news.login
-ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:12:9-52
+ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:14:9-52
 	android:name
-		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:12:19-40
+		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:14:19-40
 activity#com.example.news.sign_up
-ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:13:9-45
+ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:15:9-45
 	android:name
-		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:13:19-42
+		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:15:19-42
 activity#com.example.news.MainActivity
-ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:14:9-20:20
+ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:16:9-22:20
 	android:name
-		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:14:19-47
+		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:16:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:15:13-19:29
+ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:16:17-69
+ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:16:25-66
+		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:18:17-77
+ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:20:27-74
 uses-sdk
 INJECTED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml
@@ -112,12 +127,18 @@ MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Sa
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\7c9d949cd364f496f74a4605c0b11963\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\c7f948c586e4f8f30e9ab270a21506e6\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\c7f948c586e4f8f30e9ab270a21506e6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\9fa666dec34fcd2b15998dbf5021d6c9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\9fa666dec34fcd2b15998dbf5021d6c9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\ac582b53757c1779e4034c07d22f1f3f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\ac582b53757c1779e4034c07d22f1f3f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\824e81448b3dec8531f22a4f91129b85\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\824e81448b3dec8531f22a4f91129b85\AndroidManifest.xml:7:5-43
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\f0efaada8889f765c4ee32dac96d51b2\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\f0efaada8889f765c4ee32dac96d51b2\AndroidManifest.xml:5:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\7e81b9926b4df565c3db5006e52b4707\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\7e81b9926b4df565c3db5006e52b4707\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\7c2880e612b235f7f866c0b67150188c\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\7c2880e612b235f7f866c0b67150188c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\9fa666dec34fcd2b15998dbf5021d6c9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\9fa666dec34fcd2b15998dbf5021d6c9\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\68349caf0ca2392fd9aaa5f974934c65\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\68349caf0ca2392fd9aaa5f974934c65\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\74d66a2f947c0b2c6639cc1cc61e10de\AndroidManifest.xml:20:5-44
@@ -150,8 +171,8 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Samanyu Se
 MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\1e35effa94edbbf4bd1ba7c8e47f6b99\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\596c78f89b3c047e3e73c41a7cf02880\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\596c78f89b3c047e3e73c41a7cf02880\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\ac582b53757c1779e4034c07d22f1f3f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\ac582b53757c1779e4034c07d22f1f3f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\ce4597384fec8794e87317cd163657e8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\ce4597384fec8794e87317cd163657e8\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\44bc90285832ea8ff7d6fc9ad15309c1\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\44bc90285832ea8ff7d6fc9ad15309c1\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\dc28805c2886fb1b9b07cd18531f400e\AndroidManifest.xml:20:5-44
@@ -180,3 +201,11 @@ INJECTED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManif
 		INJECTED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\f0efaada8889f765c4ee32dac96d51b2\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\f0efaada8889f765c4ee32dac96d51b2\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\f0efaada8889f765c4ee32dac96d51b2\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Samanyu Sen\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\f0efaada8889f765c4ee32dac96d51b2\AndroidManifest.xml:9:13-64

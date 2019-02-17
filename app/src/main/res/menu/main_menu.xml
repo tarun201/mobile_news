@@ -11,6 +11,14 @@
         android:title="@string/logout"
         app:showAsAction="ifRoom|collapseActionView"/>
     <item
+        android:id="@+id/about_us"
+        android:title="About Us"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/contact"
+        android:title="Contact"
+        app:showAsAction="never"/>
+    <item
         android:id="@+id/exit"
         android:title="@string/exit"
         app:showAsAction="never"/>

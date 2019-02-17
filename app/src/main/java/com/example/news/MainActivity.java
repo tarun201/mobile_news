@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     SharedPreferences.Editor editor;
     Intent i;
 
-    boolean logged_in= false;
+//    boolean logged_in= false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,24 +33,21 @@ public class MainActivity extends AppCompatActivity {
 //        Button b = (Button)findViewById(R.id.button);
 //        Button b2 = (Button)findViewById(R.id.button2);
 
-        TextView welcome = (TextView)findViewById(R.id.textView);
+        TextView welcome = (TextView)findViewById(R.id.textView3);
 
         login = getSharedPreferences("login", Context.MODE_PRIVATE);
 //        final SharedPreferences.Editor editor = login.edit();
 
         String username = login.getString("username",null);
 
+
         if(username == null){
             welcome.setText("Welcome Guest!");
         }else{
-            logged_in=true;
-            welcome.setText("Welcome "+username);
-
-
-
-
-
-
+//            logged_in=true;
+            Intent i = new Intent(getApplicationContext(),MainActivity2.class);
+            startActivity(i);
+            finish();
         }
     }
 
@@ -64,11 +61,14 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onPrepareOptionsMenu(Menu menu) {
 //        login = getSharedPreferences("login",Context.MODE_PRIVATE);
-        if(logged_in == false){
-            menu.findItem(R.id.logout).setVisible(false);
-        }else{
-            menu.findItem(R.id.login_or_signup).setVisible(false);
-        }
+//        if(logged_in == false){
+//            menu.findItem(R.id.logout).setVisible(false);
+//        }else{
+//            menu.findItem(R.id.login_or_signup).setVisible(false);
+//        }
+
+        menu.findItem(R.id.logout).setVisible(false);
+//        menu.findItem(R.id.login_or_signup).setVisible(false);
         return super.onPrepareOptionsMenu(menu);
     }
 
@@ -81,20 +81,25 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(),"See you soon!",Toast.LENGTH_LONG).show();
                 finish();
                 return true;
+            case R.id.about_us:
+
+                return true;
+            case R.id.contact:
+
+                return true;
             case R.id.login_or_signup:
-                i=new Intent(getBaseContext(), com.example.news.login.class);
+                i = new Intent(getBaseContext(),com.example.news.login.class);
                 startActivity(i);
                 finish();
-                return true;
-            case R.id.logout:
-                editor.clear();
-                editor.apply();
-//                finish();
-//                startActivity(getIntent());
-                this.recreate();
                 return true;
                 default:
                     return super.onOptionsItemSelected(item);
         }
+    }
+
+    public void to_login(View v) {
+        Intent i = new Intent(getBaseContext(), login.class);
+        startActivity(i);
+        finish();
     }
 }
