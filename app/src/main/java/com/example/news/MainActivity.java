@@ -11,6 +11,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.HorizontalScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -37,34 +38,20 @@ public class MainActivity extends AppCompatActivity {
         login = getSharedPreferences("login", Context.MODE_PRIVATE);
 //        final SharedPreferences.Editor editor = login.edit();
 
-        String email = login.getString("email",null);
+        String username = login.getString("username",null);
 
-        if(email == null){
+        if(username == null){
             welcome.setText("Welcome Guest!");
         }else{
             logged_in=true;
-            welcome.setText("Welcome "+email);
+            welcome.setText("Welcome "+username);
+
+
+
+
+
+
         }
-
-
-//        b.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent i = new Intent(getBaseContext(),sign_up.class);
-//                startActivity(i);
-//                finish();
-//            }
-//        });
-//
-//        b2.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent i = new Intent(getBaseContext(),login.class);
-//                startActivity(i);
-//                finish();
-//            }
-//        });
-
     }
 
     @Override

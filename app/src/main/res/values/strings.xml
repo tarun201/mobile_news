@@ -15,5 +15,8 @@
     <string name="exit">Exit</string>
     <string name="logout">Log Out</string>
     <string name="login_or_signup">Login/Signup</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <!--<string name="cpassword">Confirn Password</string>-->
 </resources>
