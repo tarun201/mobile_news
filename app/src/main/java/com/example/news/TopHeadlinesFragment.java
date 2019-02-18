@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -116,7 +117,8 @@ public class TopHeadlinesFragment extends Fragment implements SwipeRefreshLayout
 //                        if(error.toString().equals("com.android.volley.TimeoutError")){
 //                            loadRecyclerViewData(swipeRefreshLayout);
 //                        }
-                        Toast.makeText(getActivity(),error.toString(),Toast.LENGTH_LONG).show();
+                        Log.d("Error: ",error.toString());
+//                        Toast.makeText(getActivity(),error.toString(),Toast.LENGTH_LONG).show();
                         swipeRefreshLayout.setRefreshing(false);
                     }
                 });
