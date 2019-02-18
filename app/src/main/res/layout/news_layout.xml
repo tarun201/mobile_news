@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
@@ -21,26 +20,32 @@
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:padding="5dp" />
 
             <TextView
                 android:id="@+id/textViewHead"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="5dp"
                 android:text="Heading"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+                android:textStyle="bold"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
 
             <TextView
-            android:id="@+id/textViewDesc"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Description" />
+                android:id="@+id/textViewDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Date" />
 
-            <!--<TextView-->
-                <!--android:id="@+id/textViewUrl"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:text="URL" />-->
+            <TextView
+                android:id="@+id/textViewSource"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Source"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
         </LinearLayout>
     </android.support.v7.widget.CardView>
 </LinearLayout>

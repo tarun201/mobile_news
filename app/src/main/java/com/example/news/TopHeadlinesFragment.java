@@ -85,14 +85,17 @@ public class TopHeadlinesFragment extends Fragment implements SwipeRefreshLayout
                         try {
                             JSONObject jsonObject = new JSONObject(response);
                             JSONArray array = jsonObject.getJSONArray("articles");
+//                            JSONObject array1 = jsonObject.getJSONObject("source");
 
                             for(int i=0;i<array.length();i++){
                                 JSONObject o = array.getJSONObject(i);
+                                JSONObject p = o.getJSONObject("source");
                                 listItem item = new listItem(
                                         o.getString("title"),
-                                        o.getString("description"),
+                                        o.getString("publishedAt"),
                                         o.getString("url"),
-                                        o.getString("urlToImage")
+                                        o.getString("urlToImage"),
+                                        p.getString("name")
                                 );
                                 listItems.add(item);
                             }
@@ -110,7 +113,10 @@ public class TopHeadlinesFragment extends Fragment implements SwipeRefreshLayout
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(getActivity(),error.networkResponse.statusCode,Toast.LENGTH_LONG).show();
+//                        if(error.toString().equals("com.android.volley.TimeoutError")){
+//                            loadRecyclerViewData(swipeRefreshLayout);
+//                        }
+                        Toast.makeText(getActivity(),error.toString(),Toast.LENGTH_LONG).show();
                         swipeRefreshLayout.setRefreshing(false);
                     }
                 });

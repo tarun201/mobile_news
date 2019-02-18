@@ -16,6 +16,10 @@ import android.widget.Toast;
 import com.squareup.picasso.Picasso;
 
 import java.nio.InvalidMarkException;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
@@ -42,18 +46,32 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
         final listItem lisitem = listItems.get(position);
 
         viewHolder.textViewHead.setText(lisitem.getHead());
-        viewHolder.textViewDesc.setText(lisitem.getDesc());
-//        viewHolder.textViewUrl.setText(lisitem.getUrl());
+
+        viewHolder.textViewSource.setText("Source: "+lisitem.getSource());
+
+        String dtStart = lisitem.getDate();
+        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");
+        try {
+            Date date = format.parse(dtStart);
+            String myString = DateFormat.getDateInstance(DateFormat.LONG).format(date);
+            viewHolder.textViewDate.setText(myString);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
 
         final String url = lisitem.getUrl();
+        final String source = lisitem.getSource();
 
         Picasso.get().load(lisitem.getImageUrl()).into(viewHolder.imageView);
 
         viewHolder.linearLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                Intent i = new Intent()
-                Toast.makeText(context,"You are at position "+url,Toast.LENGTH_SHORT).show();
+                Intent i = new Intent(context,ViewNewsActivity.class);
+                i.putExtra("url",url);
+                i.putExtra("source",source);
+                context.startActivity(i);
+//                Toast.makeText(context,"You are at position "+url,Toast.LENGTH_SHORT).show();
             }
         });
     }
@@ -66,8 +84,8 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
     public class ViewHolder extends RecyclerView.ViewHolder{
 
         public TextView textViewHead;
-        public TextView textViewDesc;
-        public TextView textViewUrl;
+        public TextView textViewDate;
+        public TextView textViewSource;
         public ImageView imageView;
         public LinearLayout linearLayout;
 
@@ -75,8 +93,8 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
             super(itemView);
 
             textViewHead = (TextView)itemView.findViewById(R.id.textViewHead);
-            textViewDesc = (TextView)itemView.findViewById(R.id.textViewDesc);
-//            textViewUrl = (TextView)itemView.findViewById(R.id.textViewUrl);
+            textViewDate = (TextView)itemView.findViewById(R.id.textViewDate);
+            textViewSource = (TextView)itemView.findViewById(R.id.textViewSource);
             imageView = (ImageView)itemView.findViewById(R.id.imageView);
             linearLayout = (LinearLayout)itemView.findViewById(R.id.linearLayout);
         }

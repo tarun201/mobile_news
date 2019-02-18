@@ -85,11 +85,13 @@ public class SportsFragment extends Fragment implements SwipeRefreshLayout.OnRef
 
                             for(int i=0;i<array.length();i++){
                                 JSONObject o = array.getJSONObject(i);
+                                JSONObject p = o.getJSONObject("source");
                                 listItem item = new listItem(
                                         o.getString("title"),
-                                        o.getString("description"),
+                                        o.getString("publishedAt"),
                                         o.getString("url"),
-                                        o.getString("urlToImage")
+                                        o.getString("urlToImage"),
+                                        p.getString("name")
                                 );
                                 listItems.add(item);
                             }

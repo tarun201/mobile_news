@@ -21,6 +21,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.AppCompat.Light" >
+        <activity
+            android:name="com.example.news.ViewNewsActivity"
+            android:parentActivityName="com.example.news.MainActivity2" />
         <activity android:name="com.example.news.MainActivity2" />
         <activity android:name="com.example.news.login" />
         <activity android:name="com.example.news.sign_up" />

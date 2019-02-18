@@ -3,23 +3,25 @@ package com.example.news;
 public class listItem {
 
     private String head;
-    private String desc;
+    private String date;
     private String url;
     private String imageUrl;
+    private String source;
 
-    public listItem(String head, String desc,String url,String imageUrl) {
+    public listItem(String head, String date,String url,String imageUrl,String source) {
         this.head = head;
-        this.desc = desc;
+        this.date = date;
         this.imageUrl = imageUrl;
         this.url = url;
+        this.source=source;
     }
 
     public String getHead() {
         return head;
     }
 
-    public String getDesc() {
-        return desc;
+    public String getDate() {
+        return date;
     }
 
     public String getUrl() {
@@ -30,6 +32,8 @@ public class listItem {
         return imageUrl;
     }
 
-
+    public String getSource() {
+        return source;
+    }
 }
 
