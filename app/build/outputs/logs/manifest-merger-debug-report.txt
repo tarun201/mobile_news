@@ -82,9 +82,9 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Samanyu Se
 	android:label
 		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:11:9-43
 	android:icon
-		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:9:9-38
 	android:allowBackup
 		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
@@ -100,11 +100,15 @@ ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest
 	android:name
 		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:15:19-48
 activity#com.example.news.login
-ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:16:9-43
+ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:16:9-85
+	android:parentActivityName
+		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:16:41-83
 	android:name
 		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:16:19-40
 activity#com.example.news.sign_up
-ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:17:9-45
+ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:17:9-87
+	android:parentActivityName
+		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:17:43-85
 	android:name
 		ADDED from C:\Users\Samanyu Sen\Desktop\mobile_news\app\src\main\AndroidManifest.xml:17:19-42
 activity#com.example.news.MainActivity
