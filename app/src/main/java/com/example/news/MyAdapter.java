@@ -1,6 +1,7 @@
 package com.example.news;
 
 import android.content.Context;
+import android.content.Intent;
 import android.media.Image;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
@@ -27,10 +28,11 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
         this.context = context;
     }
 
-    @NonNull
+//    @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
         View v = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.news_layout,viewGroup,false);
+        context = viewGroup.getContext();
 
         return new ViewHolder(v);
     }
@@ -41,13 +43,17 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
 
         viewHolder.textViewHead.setText(lisitem.getHead());
         viewHolder.textViewDesc.setText(lisitem.getDesc());
+//        viewHolder.textViewUrl.setText(lisitem.getUrl());
+
+        final String url = lisitem.getUrl();
 
         Picasso.get().load(lisitem.getImageUrl()).into(viewHolder.imageView);
 
         viewHolder.linearLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(context,"You are at position "+(position+1),Toast.LENGTH_SHORT).show();
+//                Intent i = new Intent()
+                Toast.makeText(context,"You are at position "+url,Toast.LENGTH_SHORT).show();
             }
         });
     }
@@ -61,14 +67,16 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
 
         public TextView textViewHead;
         public TextView textViewDesc;
+        public TextView textViewUrl;
         public ImageView imageView;
         public LinearLayout linearLayout;
 
-        public ViewHolder(@NonNull View itemView) {
+        public ViewHolder(View itemView) {
             super(itemView);
 
             textViewHead = (TextView)itemView.findViewById(R.id.textViewHead);
             textViewDesc = (TextView)itemView.findViewById(R.id.textViewDesc);
+//            textViewUrl = (TextView)itemView.findViewById(R.id.textViewUrl);
             imageView = (ImageView)itemView.findViewById(R.id.imageView);
             linearLayout = (LinearLayout)itemView.findViewById(R.id.linearLayout);
         }

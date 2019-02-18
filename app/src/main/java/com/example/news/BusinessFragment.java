@@ -73,7 +73,7 @@ public class BusinessFragment extends Fragment implements SwipeRefreshLayout.OnR
     private void loadRecyclerViewData(final SwipeRefreshLayout swipeRefreshLayout){
 //        spinner.setVisibility(View.VISIBLE);
         swipeRefreshLayout.setRefreshing(true);
-
+        RequestQueue requestQueue = Volley.newRequestQueue(getActivity());
         StringRequest stringRequest = new StringRequest(Request.Method.GET, URL_Data,
                 new Response.Listener<String>() {
                     @Override
@@ -88,6 +88,7 @@ public class BusinessFragment extends Fragment implements SwipeRefreshLayout.OnR
                                 listItem item = new listItem(
                                         o.getString("title"),
                                         o.getString("description"),
+                                        o.getString("url"),
                                         o.getString("urlToImage")
                                 );
                                 listItems.add(item);
@@ -110,7 +111,7 @@ public class BusinessFragment extends Fragment implements SwipeRefreshLayout.OnR
                         swipeRefreshLayout.setRefreshing(false);
                     }
                 });
-        RequestQueue requestQueue = Volley.newRequestQueue(getActivity());
+
         requestQueue.add(stringRequest);
     }
 

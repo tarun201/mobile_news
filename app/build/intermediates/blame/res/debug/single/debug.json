@@ -128,12 +128,12 @@
         "source": "C:\\Users\\Samanyu Sen\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\89c93e68fc4915c0359d43fa445f8bf2\\res\\drawable\\tooltip_frame_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Samanyu Sen\\Desktop\\mobile_news\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "C:\\Users\\Samanyu Sen\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\7f7b589beab8641534c6df2049c07dc0\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
-    },
-    {
         "merged": "C:\\Users\\Samanyu Sen\\Desktop\\mobile_news\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Samanyu Sen\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\89c93e68fc4915c0359d43fa445f8bf2\\res\\drawable-xxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Samanyu Sen\\Desktop\\mobile_news\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\Samanyu Sen\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\7f7b589beab8641534c6df2049c07dc0\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
         "merged": "C:\\Users\\Samanyu Sen\\Desktop\\mobile_news\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",

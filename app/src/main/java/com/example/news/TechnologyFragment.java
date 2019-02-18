@@ -88,6 +88,7 @@ public class TechnologyFragment extends Fragment implements SwipeRefreshLayout.O
                                 listItem item = new listItem(
                                         o.getString("title"),
                                         o.getString("description"),
+                                        o.getString("url"),
                                         o.getString("urlToImage")
                                 );
                                 listItems.add(item);

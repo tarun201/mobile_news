@@ -75,6 +75,7 @@ public class TopHeadlinesFragment extends Fragment implements SwipeRefreshLayout
     private void loadRecyclerViewData(final SwipeRefreshLayout swipeRefreshLayout){
 //        spinner.setVisibility(View.VISIBLE);
         swipeRefreshLayout.setRefreshing(true);
+        RequestQueue requestQueue = Volley.newRequestQueue(getActivity());
 
         StringRequest stringRequest = new StringRequest(Request.Method.GET, URL_Data,
                 new Response.Listener<String>() {
@@ -90,6 +91,7 @@ public class TopHeadlinesFragment extends Fragment implements SwipeRefreshLayout
                                 listItem item = new listItem(
                                         o.getString("title"),
                                         o.getString("description"),
+                                        o.getString("url"),
                                         o.getString("urlToImage")
                                 );
                                 listItems.add(item);
@@ -108,11 +110,11 @@ public class TopHeadlinesFragment extends Fragment implements SwipeRefreshLayout
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(getActivity(),error.getMessage(),Toast.LENGTH_LONG).show();
+                        Toast.makeText(getActivity(),error.networkResponse.statusCode,Toast.LENGTH_LONG).show();
                         swipeRefreshLayout.setRefreshing(false);
                     }
                 });
-        RequestQueue requestQueue = Volley.newRequestQueue(getActivity());
+
         requestQueue.add(stringRequest);
     }
 

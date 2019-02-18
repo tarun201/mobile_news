@@ -43,62 +43,56 @@ public class MainActivity2 extends AppCompatActivity {
             logged_in = true;
             welcome.setText("Welcome " + username);
         }
+
+        displayHomeFragment();
+    }
+
+    public void displayHomeFragment(){
+        Fragment frag = new TopHeadlinesFragment();
+        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+        ft.replace(R.id.fragment,frag).commit();
     }
 
     public void changeFrag(View v){
         Log.d("ChangeFRag","Clicked");
-        Fragment f;
+        Fragment f = null;
         if (v==findViewById(R.id.top_headlines)){
             Log.d("ChangeFRag","Top Head");
             f= new TopHeadlinesFragment();
-            FragmentManager fm= getSupportFragmentManager();
-            FragmentTransaction ft = fm.beginTransaction();
-            ft.replace(R.id.fragment,f);
-            ft.commit();
+
         }
         if (v==findViewById(R.id.business)){
             Log.d("ChangeFRag","Business");
             f= new BusinessFragment();
-            FragmentManager fm= getSupportFragmentManager();
-            FragmentTransaction ft = fm.beginTransaction();
-            ft.replace(R.id.fragment,f);
-            ft.commit();
+
         }
         if (v==findViewById(R.id.entertainment)){
             f= new EntertainmentFragment();
-            FragmentManager fm= getSupportFragmentManager();
-            FragmentTransaction ft = fm.beginTransaction();
-            ft.replace(R.id.fragment,f);
-            ft.commit();
+
         }
         if (v==findViewById(R.id.science)){
             f= new ScienceFragment();
-            FragmentManager fm= getSupportFragmentManager();
-            FragmentTransaction ft = fm.beginTransaction();
-            ft.replace(R.id.fragment,f);
-            ft.commit();
+
         }
         if (v==findViewById(R.id.health)){
             f= new HealthFragment();
-            FragmentManager fm= getSupportFragmentManager();
-            FragmentTransaction ft = fm.beginTransaction();
-            ft.replace(R.id.fragment,f);
-            ft.commit();
+
         }
         if (v==findViewById(R.id.sports)){
             f= new SportsFragment();
-            FragmentManager fm= getSupportFragmentManager();
-            FragmentTransaction ft = fm.beginTransaction();
-            ft.replace(R.id.fragment,f);
-            ft.commit();
+
         }
         if (v==findViewById(R.id.technology)){
             f= new TechnologyFragment();
+
+        }
+        if (f!=null){
             FragmentManager fm= getSupportFragmentManager();
             FragmentTransaction ft = fm.beginTransaction();
             ft.replace(R.id.fragment,f);
             ft.commit();
         }
+
 
     }
 

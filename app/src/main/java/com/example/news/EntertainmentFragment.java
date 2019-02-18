@@ -88,6 +88,7 @@ public class EntertainmentFragment extends Fragment implements SwipeRefreshLayou
                                 listItem item = new listItem(
                                         o.getString("title"),
                                         o.getString("description"),
+                                        o.getString("url"),
                                         o.getString("urlToImage")
                                 );
                                 listItems.add(item);
@@ -110,6 +111,7 @@ public class EntertainmentFragment extends Fragment implements SwipeRefreshLayou
                         swipeRefreshLayout.setRefreshing(false);
                     }
                 });
+//        RequestQueue requestQueue = Volley.newRequestQueue(getActivity());
         RequestQueue requestQueue = Volley.newRequestQueue(getActivity());
         requestQueue.add(stringRequest);
     }

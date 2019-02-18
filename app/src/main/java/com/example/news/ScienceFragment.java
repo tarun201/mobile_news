@@ -88,6 +88,7 @@ public class ScienceFragment extends Fragment implements SwipeRefreshLayout.OnRe
                                 listItem item = new listItem(
                                         o.getString("title"),
                                         o.getString("description"),
+                                        o.getString("url"),
                                         o.getString("urlToImage")
                                 );
                                 listItems.add(item);

@@ -85,9 +85,8 @@
         </LinearLayout>
     </HorizontalScrollView>
 
-    <fragment
+    <FrameLayout
         android:id="@+id/fragment"
-        android:name="com.example.news.BusinessFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 </LinearLayout>
